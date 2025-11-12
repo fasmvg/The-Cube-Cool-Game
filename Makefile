@@ -1,5 +1,5 @@
 all:
-	gcc -O3 main.c asm_f/ams_obj_f/*.o -o game -Iheaders -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+	gcc -O3 main.c asm_f/asm_obj_f/*.o -o game -Iheaders -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
 asm_files:
 	rm -rf asm_f/asm_obj_f/*.o
